@@ -81,6 +81,7 @@ public class SampleMediaListFragment extends Fragment {
         mAdapter.addItem("http://devimages.apple.com.edgekey.net/streaming/examples/bipbop_16x9/gear4/prog_index.m3u8", "bipbop advanced 1289x720 @ 1 Mbps");
         mAdapter.addItem("http://devimages.apple.com.edgekey.net/streaming/examples/bipbop_16x9/gear5/prog_index.m3u8", "bipbop advanced 1920x1080 @ 2 Mbps");
         mAdapter.addItem("http://devimages.apple.com.edgekey.net/streaming/examples/bipbop_16x9/gear0/prog_index.m3u8", "bipbop advanced 22.050Hz stereo @ 40 kbps");
+        mAdapter.addItem("http://9890.vod.myqcloud.com/9890_4e292f9a3dd011e6b4078980237cc3d3.f20.mp4", "9890_4e292f9a3dd011e6b4078980237cc3d3.f20.mp4");
         mAdapter.addItem("rtmp://live.hkstv.hk.lxdns.com/live/hks", "香港卫视");
         mAdapter.addItem("rtsp://184.72.239.149/vod/mp4://BigBuckBunny_175k.mov", "大熊兔（VOD）");
         mAdapter.addItem("http://live.hkstv.hk.lxdns.com/live/hks/playlist.m3u8", "香港卫视HTTP协议直播源");
