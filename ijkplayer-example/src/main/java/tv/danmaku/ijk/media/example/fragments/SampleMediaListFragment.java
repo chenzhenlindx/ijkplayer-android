@@ -85,6 +85,9 @@ public class SampleMediaListFragment extends Fragment {
         mAdapter.addItem("rtmp://live.hkstv.hk.lxdns.com/live/hks", "香港卫视");
         mAdapter.addItem("rtsp://184.72.239.149/vod/mp4://BigBuckBunny_175k.mov", "大熊兔（VOD）");
         mAdapter.addItem("http://live.hkstv.hk.lxdns.com/live/hks/playlist.m3u8", "香港卫视HTTP协议直播源");
+        mAdapter.addItem("rtsp://10.100.20.72:9090/dss/monitor/param?cameraid=1000000%240&substream=1", "实验室");
+        mAdapter.addItem("rtsp://admin:admin@10.100.20.41:554/cam/realmonitor?channel=1&subtype=0", "实验室");
+        mAdapter.addItem("rtsp://172.29.1.164:554/hikvision://10.129.65.63:8000:0:0?username=admin&password=a1234567", "实验室");
     }
 
     final class SampleMediaItem {
